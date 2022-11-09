@@ -1,0 +1,54 @@
+/* 
+цвет ховера текста #2196F3
+главный цвет текста #212121
+вторичный цвет текста #757575
+цвет главного заголовка #FFFFFF
+вторичный цвет фона #F5F4FA
+
+ */
+.list {
+  list-style: none;
+}
+
+body {
+  background-color: #fff;
+  color: #757575;
+}
+/* header */
+
+.logo .color-blu {
+  color: #2196f3;
+}
+.logo .color-black {
+  color: #000000;
+}
+
+/* site nav */
+
+.site-nav .link {
+  color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+
+/* Hero */
+.hero {
+  background-color: #2f303a;
+}
+.hero .hero-title {
+  color: #ffffff;
+}
+
+/* section section-title */
+
+.section .section-title {
+  color: #212121;
+}
+
+/* Feature */
+
+.feature-list .title {
+  color: #212121;
+}
