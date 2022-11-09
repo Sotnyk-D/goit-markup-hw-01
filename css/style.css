@@ -52,3 +52,30 @@ body {
 .feature-list .title {
   color: #212121;
 }
+
+/* Works */
+
+.works .works-title {
+  color: #212121;
+}
+
+/* Team */
+
+.team .team-title {
+  color: #212121;
+}
+.team-name {
+  color: #212121;
+}
+
+/* Footer */
+
+.footer {
+  background-color: #2f303a;
+}
+.footer-logo .color-blu {
+  color: #2196f3;
+}
+.footer-logo .color-white {
+  color: #ffffff;
+}
