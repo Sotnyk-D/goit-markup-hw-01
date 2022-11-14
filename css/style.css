@@ -7,12 +7,14 @@
 
  */
 :root {
-  --pramary-text-color: #000000;
+  --text-color: #000000;
   --secondary-text-color: #757575;
-  --title-text-color: #212121;
+  --prymery-text-color: #212121;
   --accent-color: #2196f3;
   --pramery-white-color: #ffffff;
   --pramery-footer-text-color: rgba(255, 255, 255, 0.6);
+  --backgroundcolor-hero: #2f303a;
+  --pramery-footer-color: #2f303a;
 }
 
 .list {
@@ -22,7 +24,7 @@
 
 body {
   background-color: var(--pramery-white-color);
-  color: #757575;
+  color: var(--prymery-text-color);
 
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
@@ -38,7 +40,7 @@ body {
   line-height: 1.2;
 }
 .logo .color-black {
-  color: var(--pramary-text-color);
+  color: var(--text-color);
 
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -49,7 +51,7 @@ body {
 /* site nav */
 
 .site-nav .link {
-  color: var(--title-text-color);
+  color: var(--prymery-text-color);
 
   font-weight: 500;
   font-size: 14px;
@@ -78,7 +80,7 @@ body {
 
 /* Hero */
 .hero {
-  background-color: #2f303a;
+  background-color: var(--backgroundcolor-hero);
 }
 .hero .hero-title {
   color: var(--pramery-white-color);
@@ -93,6 +95,7 @@ body {
 .button {
   color: var(--pramery-white-color);
   background-color: var(--accent-color);
+  cursor: pointer;
 
   font-weight: 700;
   font-size: 16px;
@@ -103,8 +106,6 @@ body {
 /* Feature */
 
 .feature-list .title {
-  color: var(--title-text-color);
-
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -121,8 +122,6 @@ body {
 /* Works */
 
 .works .works-title {
-  color: var(--title-text-color);
-
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -132,16 +131,12 @@ body {
 /* Team */
 
 .team .team-title {
-  color: var(--title-text-color);
-
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
 }
 .team .team-name {
-  color: var(--title-text-color);
-
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -157,7 +152,7 @@ body {
 /* Footer */
 
 .footer {
-  background-color: #2f303a;
+  background-color: var(--pramery-footer-color);
 }
 .footer-logo .color-blu {
   color: var(--accent-color);
@@ -181,23 +176,33 @@ body {
   font-size: 14px;
   line-height: 1.17;
 }
+.address-mail:hover,
+.address-mail:focus {
+  color: var(--accent-color);
+}
+.address-tel:hover,
+.address-tel:focus {
+  color: var(--accent-color);
+}
 
 /* Portfolio */
 
-.portfolio .list-button {
-  color: var(--title-text-color);
+.list-button .buttons {
+  color: var(--prymery-text-color);
 
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
+  cursor: pointer;
 }
 .list-button .buttons:hover,
 .list-button .buttons:focus {
   color: var(--pramery-white-color);
+  background-color: var(--accent-color);
 }
 
 .card .card-title {
-  color: var(--title-text-color);
+  color: var(--prymery-text-color);
 
   font-weight: 700;
   font-size: 18px;
