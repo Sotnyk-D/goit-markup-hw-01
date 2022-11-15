@@ -15,6 +15,7 @@
   --pramery-footer-text-color: rgba(255, 255, 255, 0.6);
   --backgroundcolor-hero: #2f303a;
   --pramery-footer-color: #2f303a;
+  --secondary-backgraund-color: #f5f4fa;
 }
 
 .list {
@@ -30,6 +31,10 @@ body {
   letter-spacing: 0.03em;
 }
 /* header */
+
+.logo {
+  font-size: 0;
+}
 
 .logo .color-blu {
   color: var(--accent-color);
@@ -61,6 +66,9 @@ body {
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .current {
   color: var(--accent-color);
 }
 
@@ -130,6 +138,10 @@ body {
 
 /* Team */
 
+.team {
+  background-color: var(--secondary-backgraund-color);
+}
+
 .team .team-title {
   font-weight: 700;
   font-size: 36px;
@@ -154,16 +166,32 @@ body {
 .footer {
   background-color: var(--pramery-footer-color);
 }
+.footer-logo {
+  font-size: 0;
+}
 .footer-logo .color-blu {
   color: var(--accent-color);
+
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
 }
 .footer-logo .color-white {
   color: var(--pramery-white-color);
+
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
 }
 
 .address .address-name {
   color: var(--pramery-white-color);
 
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.17;
@@ -172,6 +200,7 @@ body {
 .address-tel {
   color: var(--pramery-footer-text-color);
 
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.17;
@@ -189,6 +218,7 @@ body {
 
 .list-button .buttons {
   color: var(--prymery-text-color);
+  background-color: var(--secondary-backgraund-color);
 
   font-weight: 500;
   font-size: 16px;
